@@ -1,0 +1,36 @@
+﻿{
+  "name": "antonio-skills",
+  "owner": {
+    "name": "Antonio"
+  },
+  "metadata": {
+    "description": "Marketplace pessoal de Agent Skills: 21 skills de design frontend + utilitarias (antislop, OWASP)",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "frontend-design-pack",
+      "description": "21 skills de design frontend (UI/UX, tipografia, cores, acessibilidade, landing pages, auditoria) orquestradas por webdesign-review",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./accessibility", "./agent-ui-design", "./ai-design-workflow", "./branding-identity",
+        "./color-theory", "./component-patterns", "./customer-journey", "./design-process",
+        "./design-trends", "./images-media", "./landing-pages", "./navigation-design",
+        "./responsive-design", "./ui-design", "./ui-patterns", "./usability",
+        "./ux-design", "./visual-direction", "./web-typography", "./webdesign-review",
+        "./website-audit"
+      ]
+    },
+    {
+      "name": "utilities-pack",
+      "description": "Skills utilitarias: antislop (anti-cliche de IA em UI, codigo, copywriting, humano, layout mobile) + referencia OWASP",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./antislop", "./antislop-code", "./antislop-copywriting", "./antislop-human",
+        "./antislop-layoutmobile", "./antislop-ui", "./owasp-reference"
+      ]
+    }
+  ]
+}
