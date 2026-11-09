@@ -10,7 +10,7 @@ Marketplace pessoal de **Agent Skills** (formato aberto `SKILL.md` — [agentski
 
 | Plugin | Skills | Descrição |
 |---|---|---|
-| `frontend-design-pack` | 21 | Design frontend completo: UI/UX, tipografia, cores, acessibilidade, landing pages, padrões de componentes, auditoria — orquestrados por `webdesign-review` |
+| `frontend-design-pack` | 22 | Design frontend completo: UI/UX, tipografia, cores, acessibilidade, landing pages, padrões de componentes, auditoria, design system vivo (HTML) — orquestrados por `webdesign-review` |
 | `utilities-pack` | 7 | `antislop` (anti-clichê de IA: UI, código, copywriting, texto humano, layout mobile) + `owasp-reference` |
 
 ## Instalar no Claude Code
@@ -45,4 +45,5 @@ Abra **Configurações → Skills** no AionUi para navegar e instalar pelo marke
 ## Créditos
 
 - Skills de design frontend adaptadas de [flitzrrr/frontend-design-skills](https://github.com/flitzrrr/frontend-design-skills) (spec [agentskills.io](https://agentskills.io))
+- `generate-a-living-html-design-system-with-ai-for-ui-consistency` adaptada do episódio *How I AI* com Thariq Shihipar (Anthropic) — design system portátil em HTML como contexto visual para agentes
 - Formato de marketplace: `.claude-plugin/marketplace.json` ([docs Claude Code](https://code.claude.com/docs/en/plugins/create-marketplace.md))

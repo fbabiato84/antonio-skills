@@ -4,13 +4,13 @@
     "name": "Antonio"
   },
   "metadata": {
-    "description": "Marketplace pessoal de Agent Skills: 21 skills de design frontend + utilitarias (antislop, OWASP)",
-    "version": "1.0.0"
+    "description": "Marketplace pessoal de Agent Skills: 22 skills de design frontend + utilitarias (antislop, OWASP)",
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "frontend-design-pack",
-      "description": "21 skills de design frontend (UI/UX, tipografia, cores, acessibilidade, landing pages, auditoria) orquestradas por webdesign-review",
+      "description": "22 skills de design frontend (UI/UX, tipografia, cores, acessibilidade, landing pages, auditoria, design system) orquestradas por webdesign-review",
       "source": "./",
       "strict": false,
       "skills": [
@@ -19,7 +19,7 @@
         "./design-trends", "./images-media", "./landing-pages", "./navigation-design",
         "./responsive-design", "./ui-design", "./ui-patterns", "./usability",
         "./ux-design", "./visual-direction", "./web-typography", "./webdesign-review",
-        "./website-audit"
+        "./website-audit", "./generate-a-living-html-design-system-with-ai-for-ui-consistency"
       ]
     },
     {
